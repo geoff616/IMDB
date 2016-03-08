@@ -1,0 +1,22 @@
+.link {
+  fill: #ccc;
+  stroke: #fff; 
+  // stroke-width: 2px;
+}
+  
+
+.node {
+  stroke: #fff;
+  stroke-width: 1px;
+  
+}
+
+.country {
+  @extend .node;
+  fill: green;
+}
+
+.genre {
+  @extend .node;
+  fill: red;
+}
